@@ -92,14 +92,14 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please enter instructions and examples!. (Required)",
+    message: "For use, please provide instructions and examples! [Usage] (Required)",
     name: "usage",
     validate: (usage) => {
       if (usage) {
         return true;
       }
       else {
-        console.log('Please enter instructions and examples!');
+        console.log('Please enter instructions and examples for use! [Usage]');
         return false;
       }
     }
@@ -112,7 +112,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What can you do to contribute to this project? (Required)",
+    message: "Please provide the guidelines for contributing! (Required)",
     name: "contributing",
     validate: (contributing) => {
       if (contributing) {
