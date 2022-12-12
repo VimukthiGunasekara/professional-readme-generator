@@ -1,23 +1,31 @@
 // Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(data) {
+    if (data.license !== 'No License') {
+        return `https://img.shields.io/badge/license-${(data.license)}-yellow`;
+    }
+    else {
+        return `https://img.shields.io/badge/license-No-License-blue`;
+    }
+}
 
 // Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) { }
 
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) { }
 
 //Create a function to generate markdown for README
-function generateReadme(data){
-    return`# ${data.title}
+function generateReadme(data) {
+    return `# ${data.title}
         
 ## 🌟[Description](#table-of-contents)
 ${data.description}
-         
-License is ${(data.license)}
+
+<img src="https://img.shields.io/badge/license-${(data.license)}-yellow"/>
+
 ## Table-of-Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -34,7 +42,9 @@ ${data.installation}
 ${data.usage}
          
 ## 📑 [license](#table-of-contents)
-${(data.license)}
+<img src="https://img.shields.io/badge/license-${(data.license)}-yellow"/>
+
+Your repository is licensed under an ${(data.license)} open source license, so other people can contribute more easily.
 
 ## 🤝 [Contributing](#table-of-contents)
 We are open to all kinds of contributions. If you want to:
