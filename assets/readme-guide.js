@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
         return `https://img.shields.io/badge/license-${(license)}-yellow`;
     }
     else {
-        return `https://img.shields.io/badge/license-No-License-blue`;
+        return `https://img.shields.io/badge/license-No License-blue`;
     }
 }
 
@@ -26,7 +26,7 @@ function generateReadme(data) {
 ## 🌟[Description](#table-of-contents)
 ${data.description}
 
-<img src="https://img.shields.io/badge/license-${(data.license)}-yellow"/>
+<img src="${renderLicenseBadge(data.license)}"/>
 
 ## Table-of-Contents
 * [Description](#description)
@@ -44,7 +44,7 @@ ${data.installation}
 ${data.usage}
          
 ## 📑 [license](#table-of-contents)
-<img src="https://img.shields.io/badge/license-${(data.license)}-yellow"/>
+<img src="${renderLicenseBadge(data.license)}"/>
 
 Your repository is licensed under an ${(data.license)} open source license, so other people can contribute more easily.
 
@@ -62,7 +62,7 @@ Feel free to check [issues page](https://github.com/${data.userName}/${data.repo
 ## 🚀[Tests](#table-of-contents)
 ${data.tests}
      
-## 🤔 [faqs](#table-of-contents)
+## 🤔 [FAQs](#table-of-contents)
 Please contact me using the following links:
 
 [GitHub](https://github.com/${data.userName}) / [Email: ${data.email}](mailto:${data.email})`;
