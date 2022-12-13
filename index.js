@@ -108,7 +108,7 @@ const questions = [
     type: "list",
     message: "Which license will you use for your project?",
     name: "license",
-    choices: ['Academic Free License', 'Apache License', 'Eclipse Public License', 'MIT', 'No License']
+    choices: ['apache-2.0', 'mpl-2.0', 'bsl-1.0', 'mit', 'No License']
   },
   {
     type: "input",

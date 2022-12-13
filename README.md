@@ -23,7 +23,7 @@ Launch the terminal by typing 'node index' after the installation is complete. A
 ## 📑 [license](#table-of-contents)
 <img src="https://img.shields.io/badge/license-MIT-yellow"/>
 
-Your repository is licensed under an MIT open source license, so other people can contribute more easily.
+Your repository is licensed under an mit open source license, so other people can contribute more easily.More information can be found by clicking this [link.](https://choosealicense.com/licenses/mit)
 
 ## 🤝 [Contributing](#table-of-contents)
 We are open to all kinds of contributions. If you want to:
@@ -39,7 +39,7 @@ Feel free to check [issues page](https://github.com/VimukthiGunasekara/professio
 ## 🚀[Tests](#table-of-contents)
 Open this file in VS Code to test it. Using the terminal, open the professional-readme-generator folder and run the 'node index' command. You can view a preview of the README.md file after answering the prompts.Then you can test this application.
      
-## 🤔 [faqs](#table-of-contents)
+## 🤔 [FAQs](#table-of-contents)
 Please contact me using the following links:
 
-[GitHub](https://github.com/VimukthiGunasekara) / [Email: vimukthisadaruwan65@gmail.com](mailto:vimukthisadaruwan65@gmail.com)
+[GitHub](https://github.com/VimukthiGunasekara) / Email: vimukthisadaruwan65@gmail.com
